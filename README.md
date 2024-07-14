@@ -13,9 +13,9 @@
 
 To install cr_epub, you can use the following command:
 
-\`\`\`bash
+```bash
 npm install cr_epub
-\`\`\`
+```
 
 ## Usage
 
@@ -23,7 +23,7 @@ npm install cr_epub
 
 Here's a simple example of how to create an EPUB file using cr_epub:
 
-\`\`\`javascript
+```javascript
 const cr_epub = require('cr_epub');
 
 let ebook = new cr_epub({
@@ -33,13 +33,13 @@ let ebook = new cr_epub({
 });
 
 ebook.save("my_first_ebook.epub");
-\`\`\`
+```
 
 ### Advanced Usage
 
 cr_epub offers advanced features for more complex projects. You can customize the metadata, add multiple chapters, and include images.
 
-\`\`\`javascript
+```javascript
 const cr_epub = require('cr_epub');
 
 let ebook = new cr_epub({
@@ -65,7 +65,7 @@ let ebook = new cr_epub({
 });
 
 ebook.save("advanced_ebook.epub");
-\`\`\`
+```
 
 ## Documentation
 
